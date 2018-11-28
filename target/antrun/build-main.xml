@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec spawn="false" dir="E:\New folder\monytransfer\target" executable="wmic">
+    <arg value="process"/>
+    <arg value="where"/>
+    <arg value="CommandLine like &apos;%moneytransfer%&apos; and not name=&apos;wmic.exe&apos;"/>
+    <arg value="delete"/>
+  </exec>
+</target>
+</project>

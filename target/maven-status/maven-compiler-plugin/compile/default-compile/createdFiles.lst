@@ -1,0 +1,4 @@
+com\revolut\ibrahimfouad\monytransfer\Application.class
+com\revolut\ibrahimfouad\monytransfer\models\Transfer$TransferStatus.class
+com\revolut\ibrahimfouad\monytransfer\models\Account.class
+com\revolut\ibrahimfouad\monytransfer\models\Transfer.class
